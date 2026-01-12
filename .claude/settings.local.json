@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/josegalan/Documents/GCSE_Edexel_Autism log --oneline -10)",
+      "Bash(wc:*)",
+      "Bash(git -C /Users/josegalan/Documents/GCSE_Edexel_Autism log --all --oneline)",
+      "Bash(git -C /Users/josegalan/Documents/GCSE_Edexel_Autism remote:*)",
+      "Bash(node -c:*)",
+      "Bash(node split-topics.js:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Paper 2 Quest - Autism-friendly GCSE CS learning platform\n\nGamified learning platform for Edexcel GCSE Computer Science Paper 2 topics\nusing LEGO and Mario themes. Features 22 interactive levels covering algorithms,\nprogramming, and CS theory with quizzes and progress tracking.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
